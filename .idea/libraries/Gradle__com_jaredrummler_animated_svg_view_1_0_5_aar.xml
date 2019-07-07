@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.jaredrummler:animated-svg-view:1.0.5@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/52cc99263a688600f4b3827551d12fc3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/4eafdc2d5f0817481cd527f4e5916164/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/52cc99263a688600f4b3827551d12fc3/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/52cc99263a688600f4b3827551d12fc3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/4eafdc2d5f0817481cd527f4e5916164/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/animated-svg-view-1.0.5.aar/4eafdc2d5f0817481cd527f4e5916164/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ringtone pro.iml" filepath="$PROJECT_DIR$/Ringtone pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ringtone_Pro.iml" filepath="$PROJECT_DIR$/Ringtone_Pro.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
