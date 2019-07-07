@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="60dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circle_image_view_profile_nav_header"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="0dp"
+            app:civ_border_color="#FF000000"/>
+        <ImageView
+            android:id="@+id/image_view_facebook_nav_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/facebook"
+
+            android:layout_width="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="30dp" />
+        <ImageView
+            android:id="@+id/image_view_google_nav_header"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/google"
+            android:layout_width="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+    <LinearLayout
+
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+        <TextView
+            android:id="@+id/text_view_name_nave_header"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:text="@string/please_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_logout_nav_header"
+            android:textSize="26px"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:visibility="gone"
+            android:text="Logout !"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/colorPrimaryDarkMenu"
+            android:theme="@style/Button_login"
+            android:elevation="1dp" />
+        <Button
+            android:id="@+id/button_login_nav_header"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textSize="26px"
+
+            android:text="Sign in !"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@color/colorPrimaryDarkMenu"
+            android:theme="@style/Button_login"
+            android:elevation="1dp" />
+    </LinearLayout>
+
+</RelativeLayout>
